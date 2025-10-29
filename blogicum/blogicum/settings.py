@@ -1,9 +1,5 @@
 from pathlib import Path
 
-from dotenv import load_dotenv
-
-load_dotenv()
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-sn)&60rwep@h!i=in_nnwuf$=xslqvs6_2l5mx-ea6gc#iy0n#'
